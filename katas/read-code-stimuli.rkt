@@ -6,7 +6,23 @@
 
 (define stimuli
   (list
-    `001-easy
-    (read "Generate a new model with name \"Box\".")
 
-    ))
+   `001-easy
+   (read "Generate a random 8-bit unsigned number.")
+
+   `002-easy
+   (read "Generate a random 16-bit unsigned number.")
+
+   `003-easy
+   (read "Generate a random 16-bit hexadecimal number.")
+
+   `004-easy
+   (read "Pull a random 8-bit unsigned number directly from the QRNG computer at ANU.")
+
+   `005-easy
+   (read "Pull a random 16-bit unsigned number directly from the QRNG computer at ANU.")
+
+   `006-easy
+   (read "Pull a random 16-bit hexadecimal number directly from the QRNG computer at ANU.")
+   
+   ))
