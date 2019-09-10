@@ -4,7 +4,6 @@
 
 (define deps '(
   "ts-kata-util"
-  "https://github.com/Dimitriedd/ANU-Web-Quantum-RNG-lang.git"
   ;Your deps here
   ))
 
