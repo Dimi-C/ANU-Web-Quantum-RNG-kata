@@ -3,8 +3,6 @@
 (provide tips)
 
 (require ts-kata-util/katas/main)
-(require ts-kata-util/rendering/scribble)
-(require scribble/manual)
 
 (define tips
   (list
