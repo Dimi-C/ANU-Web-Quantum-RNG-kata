@@ -3,16 +3,13 @@
 (provide katas)
 
 (require ts-kata-util/katas/main
-         ts-fundamentals/katas)
+         "./katas/read-code-stimuli.rkt")
 
 (define katas
-  (merge-collections
-    ;Many katas begin by pulling in examples
-    ; from some TS-Language
-    (lang->kata-collection 'fundamentals)
+  (apply fill-in-stimuli
+         (lang->kata-collection 'ANU-Web-Quantum-RNG-lang)
+         stimuli))
 
-    ;You can also import katas from other kata collections
-    (kata-collection
-      (list core-values))))
-
-
+(define-sub-collections katas
+  easy
+  )
