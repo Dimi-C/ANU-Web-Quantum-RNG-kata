@@ -17,12 +17,12 @@
    (read "Generate a random 16-bit hexadecimal number.")
 
    `004-easy
-   (read "Pull a random 8-bit unsigned number directly from the QRNG computer at ANU.")
+   (read "Pull a list of random 8-bit unsigned numbers directly from the QRNG computer at ANU.")
 
    `005-easy
-   (read "Pull a random 16-bit unsigned number directly from the QRNG computer at ANU.")
+   (read "Pull a list of random 16-bit unsigned numbers directly from the QRNG computer at ANU.")
 
    `006-easy
-   (read "Pull a random 16-bit hexadecimal number directly from the QRNG computer at ANU.")
+   (read "Pull a list of random 16-bit hexadecimal numbers directly from the QRNG computer at ANU.")
    
    ))
