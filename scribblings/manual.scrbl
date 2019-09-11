@@ -13,7 +13,7 @@ Katas for the @hyperlink["https://pkgs.racket-lang.org/package/ANU-Web-Quantum-R
 @image{scribblings/img/quantum.jpg}
 
 The package that these katas are based on a racket package called @hyperlink["https://pkgs.racket-lang.org/package/ANU-Web-Quantum-RNG"]{ANU-Web-Quantum-RNG} which pulls random numbers
-from the ANU (Australian National University) quantum randon number generator project.
+from the ANU (Australian National University) @hyperlink["https://qrng.anu.edu.au/"]{quantum randon number generator server}.
 
 @table-of-contents[]
 
