@@ -12,28 +12,13 @@ Katas for the @hyperlink["https://pkgs.racket-lang.org/package/ANU-Web-Quantum-R
 
 @image{scribblings/img/quantum.jpg}
 
-This is a web page that displays information that came from a kata
-collection.  Neither the web page, nor the Scribble file that created it
-are kata collections.
-
-Keep that in mind as you get rid of all of this text and replace it
-with all of the cool katas you're about to make.  Make your katas in
-@racket[katas.rkt] and whatever @racket[rkt] files are appropriate.
-
-That's where the kata collection goes.  C'est la pipe.
-Keep the pipe in Racket, not in scribble. 
-
-What to do in Scribble, you ask?  1) Any long-form prose about your collection.
-2) Organizing a kata collection onto different pages or different sections of a
-document. 3) Any meta information about your collection.  And so on.
+The package that these katas are based on a racket package called @hyperlink["https://pkgs.racket-lang.org/package/ANU-Web-Quantum-RNG"]{ANU-Web-Quantum-RNG} which pulls random numbers
+from the ANU (Australian National University) quantum randon number generator project.
 
 @table-of-contents[]
 
-@section{Katas}
+@section{RNG Katas}
 
-These katas came from @racket[katas.rkt].
-Edit the kata definitions there.
-
-For custom rendering edit @racket[rendering.rkt].
+These katas are for the @hyperlink["https://docs.racket-lang.org/guide/syntax-overview.html"]{functions} within @hyperlink["https://pkgs.racket-lang.org/package/ANU-Web-Quantum-RNG"]{ANU-Web-Quantum-RNG} language.
 
 @(render katas)
