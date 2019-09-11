@@ -6,11 +6,13 @@
           "../rendering.rkt"
           (except-in racket read do))
 
-@title{ANU-Web-Quantum-RNG Kata Collection}
+@title{Unnamed Kata Collection}
 
-Katas for the @hyperlink["https://pkgs.racket-lang.org/package/ANU-Web-Quantum-RNG"]{ANU-Web-Quantum-RNG} package.
+A philosophical note to whomever is going to write this documenation:
 
-@image{scribblings/img/quantum.jpg}
+This is not a Kata Collection.
+
+@image{scribblings/img/pipe.jpg}
 
 This is a web page that displays information that came from a kata
 collection.  Neither the web page, nor the Scribble file that created it
